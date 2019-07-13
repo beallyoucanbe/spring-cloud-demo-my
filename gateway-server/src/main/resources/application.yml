@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: gateway-server
+server:
+  port: 8884
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8880/eureka/
+#zuul:
+#  routes:
+#    hello-service:
+#      path: /hello-service/**
+#      serviceId: hello-service
+#    ribbon-consumer:
+#      path: /ribbon-consumer/**
+#      serviceId: ribbon-consumer

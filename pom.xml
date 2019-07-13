@@ -11,8 +11,10 @@
     <name>Spring Cloud Demo</name>
 
     <modules>
-        <module>eureka-client</module>
+        <module>hello-service-v1</module>
+        <module>hello-service-v2</module>
         <module>eureka-server</module>
         <module>ribbon-consumer</module>
+        <module>gateway-server</module>
     </modules>
 </project>

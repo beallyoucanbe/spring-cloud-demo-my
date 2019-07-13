@@ -1,8 +1,8 @@
+server:
+  port: 8882
 spring:
   application:
-    name: ribbon-consumer
-server:
-  port: 8883
+    name: hello-service
 eureka:
   client:
     serviceUrl:
