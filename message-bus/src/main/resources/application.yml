@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active:
+  rabbitmq:
+    host: 10.129.8.225
+    port: 5672
+    username: gbq
+    password: gbq.glodon.c0m
+    virtual-host: gccsNotify
+    template:
+      exchange: api-gccs-notify

@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: subversion
+  cloud:
+    config:
+      server:
+        svn:
+#          以下为阿里云自搭建svn配置
+#          uri: svn://39.106.118.175/configfile/configfile-ali
+          uri: svn://39.106.118.175/configfile
+          username: zhaosy
+          password: 123qwe!@#
+server:
+  port: 7001
+  tomcat:
+      accesslog:
+        enabled: true
+        directory: /data/cloud-config-server/logs
+
+logging:
+  level:
+    root: 'INFO'

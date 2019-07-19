@@ -20,7 +20,7 @@ logging:
   level:
     root: info
 server:
-  port: 8882
+  port: 8881
 management:
   security:
     enabled: false

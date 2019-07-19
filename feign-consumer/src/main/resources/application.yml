@@ -1,8 +1,8 @@
-server:
-  port: 8881
 spring:
   application:
-    name: hello-service
+    name: feign-consumer
+server:
+  port: 8885
 eureka:
   client:
     serviceUrl:
