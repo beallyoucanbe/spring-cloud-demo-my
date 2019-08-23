@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-service
+    name: eureka-service-2
 server:
   port: 8880
 eureka:
@@ -15,4 +15,4 @@ eureka:
     enableSelfPreservation: false
 logging:
   level:
-    root: debug
+    root: info

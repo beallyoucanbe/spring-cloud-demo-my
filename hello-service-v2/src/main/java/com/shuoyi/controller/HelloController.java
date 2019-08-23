@@ -29,7 +29,7 @@ public class HelloController {
     @Autowired
     private DiscoveryClient client;
 
-    @GetMapping("test_name")
+    @GetMapping("/test_name")
     public String getName(){
         return testName;
     }
